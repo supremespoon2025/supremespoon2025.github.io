@@ -1,3 +1,8 @@
+function playAudio() {
+  var audio = document.getElementById('myAudio');
+  audio.play();
+}
+
 import * as THREE from 'three';
 
 // init
@@ -24,3 +29,5 @@ function animation(time) {
 
   renderer.render(scene, camera);
 }
+
+playAudio()
