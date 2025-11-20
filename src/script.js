@@ -6,7 +6,7 @@ camera.position.z = 1;
 
 const scene = new THREE.Scene();
 
-const geometry = new THREE.BoxGeometry( 0.4, 0.4, 0.4 );
+const geometry = new THREE.SphereGeometry( 15, 32, 16 );
 const material = new THREE.MeshNormalMaterial();
 
 const mesh = new THREE.Mesh( geometry, material );
