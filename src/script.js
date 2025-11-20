@@ -1,8 +1,3 @@
-windows.onload = playAudio() {
-  var audio = document.getElementById('myAudio');
-  audio.play();
-};
-
 import * as THREE from 'three';
 
 // init
