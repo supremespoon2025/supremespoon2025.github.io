@@ -1,7 +1,7 @@
-function playAudio() {
+windows.onload = playAudio() {
   var audio = document.getElementById('myAudio');
   audio.play();
-}
+};
 
 import * as THREE from 'three';
 
@@ -29,5 +29,3 @@ function animation(time) {
 
   renderer.render(scene, camera);
 }
-
-playAudio()
